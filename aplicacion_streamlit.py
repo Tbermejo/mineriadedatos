@@ -23,8 +23,8 @@ def main():
     preprocessed_image = preprocess_image(image)
     st.image(preprocess_image, caption = "Imagen cargada")
 
-    if st.button("Clasificar imagen")
-      st.markdown("Imagen clasificada")
+      if st.button("Clasificar imagen"):
+  st.markdown("Imagen clasificada")
 
 if __name__ == "__main__":
   main()
