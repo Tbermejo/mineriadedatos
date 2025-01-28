@@ -5,6 +5,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 import numpy as np
 import gzip
 import pickle
+import sklearn
 
 def preprocess_image(image):
   image = image.convert('L') # convertir a escala de grises
@@ -14,7 +15,7 @@ def preprocess_image(image):
   return image_array
 
 def load_model():
-  filename = "model_trained.pkl.gz"
+  filename = "modelo_entrenado.pkl.gz"
   with gzip.open(filename, 'rb') as f:
     model = pickle.load(f)
   return model
