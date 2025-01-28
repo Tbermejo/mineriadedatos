@@ -2,6 +2,7 @@
 import streamlit as st
 from PIL import Image
 from tensorflow.keras,preprocessing.image import img_to_array
+import numpy as np
 
 def preprocess_image(image):
   image = image.convert('L') #Convertir a escala de grises
