@@ -10,4 +10,3 @@ uploaded_file = st.file_uploader("Selecciona una imagen (PNG, JPG, JPEG)", type 
 if __name__ == "__main__":
   main()
 
-st.file_uploader
