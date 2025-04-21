@@ -1,6 +1,6 @@
 #Minería de Datos - Clasificación de Datos
 
-Este repositorio contiene un ejercicio práctico de minería de datos utilizando técnicas de clasificación supervisada en Python. Se utiliza un dataset [descripción del dataset, por ejemplo: sobre clientes bancarios, especies de flores, datos de salud, etc.] con el objetivo de predecir la clase objetivo a partir de variables independientes.
+Este repositorio contiene un ejercicio práctico de minería de datos utilizando técnicas de clasificación supervisada en Python y la creación de una página Streamlit, utilizando el dataset MNIST con el objetivo de que el usuario pueda interactuar con los modelos previamente entrenados. 
 
 ##Objetivo
 
